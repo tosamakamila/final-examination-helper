@@ -1,0 +1,4 @@
+interface:
+  display_name: "凝练复习教材 Skill"
+  short_description: "从课程课件与课本逐章制作凝练教材，补机制、对比与联系并核对来源覆盖"
+  default_prompt: "使用 $exam-driven-notes-builder 根据我提供的课程课件和课本逐章制作凝练复习教材，并按技能流程审校与保存。"

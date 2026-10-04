@@ -1,0 +1,2 @@
+# Optional: .doc / .ppt extraction also requires Microsoft Office on Windows.
+pywin32>=306; sys_platform == "win32"

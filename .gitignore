@@ -1,0 +1,43 @@
+# Only the skill package and its maintenance files belong in this repository.
+/*
+!/README.md
+!/LICENSE
+!/.gitignore
+!/skills/
+!/tests/
+
+# User materials, generated products, and local learning state.
+**/教材/
+**/资料/
+**/缓存/
+**/输出/
+**/音频/
+**/runtime/
+**/备份*/
+**/发布/
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav
+*.m4a
+
+# Local environments, credentials, and intermediate files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+*.bak
+.pytest_cache/
+.tmp/
+.DS_Store
+Thumbs.db
